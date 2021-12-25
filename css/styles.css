@@ -1,0 +1,54 @@
+:root {
+  --theme: #7952b3;
+}
+
+body {
+  background-color: #f5f4f8;
+  /* color: white; */
+  /* background-color: white; */
+  position: relative;
+}
+
+.avatar {
+  max-width: 150px;
+}
+
+.title-desc {
+  font-size: 1.4rem !important;
+}
+
+.navbar {
+  background-color: var(--theme);
+}
+
+.hero-foot {
+  color: var(--theme);
+}
+
+.hero-img {
+  /* filter: invert(8%) sepia(99%) saturate(7196%) hue-rotate(270deg) brightness(111%) contrast(105%); */
+  filter: invert(40%) sepia(18%) saturate(1787%) hue-rotate(222deg)
+    brightness(90%) contrast(92%);
+}
+
+.about-section {
+  background-color: var(--theme);
+  color: #fff;
+}
+
+.section-skills {
+  position: relative;
+  top: -40px;
+}
+
+.skill-text {
+  color: var(--theme);
+}
+
+.section-works {
+  padding-top: 8rem;
+}
+
+.section-contact {
+  padding-top: 8rem;
+}

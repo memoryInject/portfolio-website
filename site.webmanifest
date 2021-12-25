@@ -1,0 +1,64 @@
+{
+  "name": "Memory-Inject web development",
+  "short_name": "memoryinject",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "48x48",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "favicon-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "favicon-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "maskable_icon.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
+    }
+  ],
+  "start_url": ".",
+  "id": "/",
+  "theme_color": "#7952b3",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "description": "web development using JavaScript, NodeJS, Express, Python, Django",
+  "lang": "en",
+  "categories": [
+    "portfolio, development, web, web development, full-stack, back-end, javascript, python"
+  ],
+  "screenshots": [
+    {
+      "src": "Screenshot1.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    },
+    {
+      "src": "Screenshot2.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    },
+    {
+      "src": "Screenshot3.png",
+      "sizes": "540x720",
+      "type": "image/png"
+    }
+  ]
+}

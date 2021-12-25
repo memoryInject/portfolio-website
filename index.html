@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="msapplication-TileColor" content="#9f00a7" />
+    <meta name="msapplication-config" content="browserconfig.xml" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="description" content="web developer JavaScript Python" />
+    <link rel="icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.light.min.css"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>
+      Memory Inject: backend development [JavaScript, Python, Django, NodeJS,
+      Express]
+    </title>
+  </head>
+
+  <body data-bs-spy="scroll" data-bs-target="#navbarNav" id="home">
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#">Memory-Inject</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav fw-bold">
+            <li class="nav-item">
+              <a class="nav-link" href="#home">Home</a>
+              <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#works">Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" tabindex="-1">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Title section -->
+    <section class="hero-ttile">
+      <div class="container my-3 text-center" style="padding-top: 20vh">
+        <h1 class="title fw-bold">Back-end Developer</h1>
+        <p class="title-desc fw-normal">
+          Code, test and build server side of the web.
+        </p>
+        <p>[ Python, JavaScript, NodeJS, Express, Django ]</p>
+
+        <div
+          class="d-flex justify-content-center row"
+          style="padding-top: 4rem"
+        >
+          <div class="col text-center">
+            <div
+              class="shadow rounded-circle bg-body"
+              style="height: 124px; width: 124px; margin: auto"
+            >
+              <img
+                class="rounded-circle"
+                src="img/profile.png"
+                alt="profile_pic.jpg"
+                style="
+                  height: 120px;
+                  width: 120px;
+                  object-fit: cover;
+                  position: relative;
+                  top: 2px;
+                "
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="hero-foot text-center" style="padding-top: 15vh">
+        <img
+          class="hero-img img-fluid"
+          src="img/computer.svg"
+          alt="computer-tea"
+        />
+      </div>
+    </section>
+    <!-- <div
+      style="
+        background-color: #7952b3;
+        position: absolute;
+        height: 200px;
+        width: 100%;
+        top: 48rem;
+      "
+    ></div> -->
+
+    <!-- About me -->
+    <div id="about"></div>
+    <section class="about-section">
+      <div class="container about-container text-center p-5">
+        <div style="padding-top: 4vh">
+          <h1 class="fs-2 p-4">Hi, I’m Mahesh. Thank you for visiting.</h1>
+        </div>
+        <p class="fs-5">
+          Since beginning my journey as a developer over 6 years ago, I've done
+          work for complanies with different discipline on developments,
+          including web development, desktop applications, and collaborated with
+          talented people to create digital products for both business and
+          consumer use. I'm quietly confident, naturally curious, and
+          perpetually working on improving my chops one dev problem at a time.
+        </p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section-skills">
+      <div class="container" style="max-width: fit-content">
+        <div class="card" style="padding-bottom: 5rem">
+          <div class="card-body">
+            <h5 class="card-title text-center">Back-end Developer</h5>
+            <p class="card-text text-center">
+              Developing server side of the web using Python/JavaScript.
+            </p>
+            <br />
+            <div class="container-fluid text-center">
+              <div class="row">
+                <div class="col-sm-4">
+                  <h2 class="fs-6 skill-text">Programming Languages:</h2>
+                  <p>Python</p>
+                  <p>JavaScript</p>
+                  <p>C and C++</p>
+                </div>
+
+                <div class="col-sm-4">
+                  <h2 class="fs-6 skill-text">Skills:</h2>
+                  <p>Python and Django</p>
+                  <p>Node and Express</p>
+                  <p>REST API development</p>
+                  <p>CI/CD pipeline</p>
+                  <p>Database: Postges, MongoDB</p>
+                  <p>Testing: Python, JavaScript, Jest and Cypress</p>
+                </div>
+
+                <div class="col">
+                  <h2 class="fs-6 skill-text">Front-end Technologies:</h2>
+                  <p>React with Redux</p>
+                  <p>JavaScript</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Works -->
+    <section class="section-works" id="works">
+      <div class="container" style="padding-top: 2rem">
+        <h1 class="text-center fs-2">Works</h1>
+        <p class="text-center fs-5">
+          Here are a few of my works I've worked on recently. You can find more
+          on my
+          <a
+            href="https://github.com/memoryInject/"
+            class="text-decoration-none"
+            >github</a
+          >.
+        </p>
+        <div
+          class="row row-cols-sm-1 row-cols-md-4 d-flex justify-content-center"
+        >
+          <!-- Nutri-Strat -->
+          <div class="col-md-4 col-sm-6 col-lg-3 my-2">
+            <div class="card text-center">
+              <img
+                src="img/nutri-strat-screenshot.png"
+                class="card-img-top"
+                alt="work"
+                stylee="max-width: 240px; margin: auto;"
+              />
+              <div class="card-body">
+                <div
+                  class="row d-flex justify-content-center"
+                  style="min-height: 200px"
+                >
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <h5 class="card-title">Nutri-Strat Ecommerce</h5>
+                    </div>
+                  </div>
+                  <div class="row align-items-center">
+                    <div class="col">
+                      <p class="card-text">
+                        Full-stack ecommerce website for supplement store.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row align-items-end">
+                    <div class="col">
+                      <a
+                        href="#nutri-strat-modal"
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        role="button"
+                      >
+                        More Details
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Media-Review -->
+          <div class="col-md-4 col-sm-6 col-lg-4 my-2">
+            <div class="card text-center">
+              <img
+                src="img/media-review-screenshot.png"
+                class="card-img-top"
+                alt="work"
+                stylee="max-width: 240px; margin: auto;"
+              />
+              <div class="card-body">
+                <div
+                  class="row d-flex justify-content-center"
+                  style="min-height: 200px"
+                >
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <h5 class="card-title">Media-Review-App</h5>
+                    </div>
+                  </div>
+                  <div class="row align-items-center">
+                    <div class="col">
+                      <p class="card-text">
+                        Media-Review PWA is a platform for review media by team
+                        collaboration in cloud.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row align-items-end">
+                    <div class="col">
+                      <a
+                        href="#media-review-modal"
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        role="button"
+                        >More Details</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog-Snippet -->
+          <div class="col-md-4 col-sm-6 col-lg-3 my-2">
+            <div class="card text-center">
+              <img
+                src="img/blog-snippet-screenshot.png"
+                class="card-img-top"
+                alt="work"
+                stylee="max-width: 240px; margin: auto;"
+              />
+              <div class="card-body">
+                <div
+                  class="row d-flex justify-content-center"
+                  style="min-height: 200px"
+                >
+                  <div class="row align-items-start">
+                    <div class="col">
+                      <h5 class="card-title">Blog-Snippet</h5>
+                    </div>
+                  </div>
+                  <div class="row align-items-center">
+                    <div class="col">
+                      <p class="card-text">
+                        A basic full-stack blog application to learn testing and
+                        CI/CD pipeline workflow
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row align-items-end">
+                    <div class="col">
+                      <a
+                        href="#blog-snippet-modal"
+                        class="btn btn-primary"
+                        data-bs-toggle="modal"
+                        role="button"
+                        >More Details</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Details Modals -->
+    <section class="section-work-details-modal">
+      <!-- Ntrition-Strat Details Modal -->
+      <div
+        class="modal fade"
+        id="nutri-strat-modal"
+        aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1"
+      >
+        <div
+          class="
+            modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+          "
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+              <img
+                src="img/nutri-start-favicon-32x32.png"
+                alt="nutri-start-icon"
+                style="height: 20px; width: 20px"
+              />
+              <h5 class="modal-title text-center" id="exampleModalToggleLabel">
+                &nbsp; Nutrition-Strat Ecommerce Website
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="img/nutri-strat-screenshot.png"
+                class="d-block img-fluid"
+                alt="work"
+                style="max-height: 340px; margin: auto"
+              />
+              <h6 class="text-center py-2">
+                <a
+                  href="https://nutri-strat.herokuapp.com/"
+                  class="text-decoration-none"
+                  >nutri-strat.herokuapp.com</a
+                >
+              </h6>
+              <p>Full-Stack ecommerce website for supplement store.</p>
+              <p class="mb-0">Backend: NodeJS, Express, MongoDB</p>
+              <p class="mb-0">Frontend: React, Redux and Bootstrap</p>
+              <p>CI/CD: CircleCI with Heroku</p>
+              <p>
+                For more info:
+                <a
+                  href="https://github.com/memoryInject/ecommerce-supplement-store"
+                  class="text-decoration-none"
+                  >github</a
+                >
+              </p>
+              <p class="text-warning">
+                **Note: this demo hosted in heroku free dyno, it may take a few
+                seconds to load it initially.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Meida-Review Details Modal -->
+      <div
+        class="modal fade"
+        id="media-review-modal"
+        aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1"
+      >
+        <div
+          class="
+            modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+          "
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+              <img
+                src="img/media-review-favicon-32x32.png"
+                alt="nutri-start-icon"
+                style="height: 20px; width: 20px"
+              />
+              <h5 class="modal-title text-center" id="exampleModalToggleLabel">
+                &nbsp; Media-Review Progressive Web App
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <video
+                id="player"
+                class="cld-video-player cld-fluid"
+                controls
+                playsinline
+              ></video>
+              <h6 class="text-center py-2">
+                <a
+                  href="https://media-review.herokuapp.com/"
+                  class="text-decoration-none"
+                  >media-review.herokuapp.com</a
+                >
+              </h6>
+              <p>
+                Media-Review PWA is a platform for review media by team
+                collaboration in cloud, integrates reviewers, creators, content
+                and tools needs to be more engaged and effective review process.
+              </p>
+              <p class="mb-0">
+                Backend: Python, Django, Redis, Postgres/sqlite3
+              </p>
+              <p class="mb-0">Frontend: React, Redux, Bootstrap</p>
+              <p>CI/CD: CircleCI with Heroku</p>
+              <p>
+                For more info:
+                <a
+                  href="https://github.com/memoryInject/media-review-app"
+                  class="text-decoration-none"
+                  >github</a
+                >
+              </p>
+              <p class="text-warning">
+                **Note: this demo hosted in heroku free dyno, it may take a few
+                seconds to load it initially. This app does require a login
+                credentials to access, if you would like to access this app
+                please contact me:
+                <a href="mailto:msmahesh@live.com" class="text-decoration-none"
+                  >msmahesh@live.com</a
+                >
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog-Snippet Details Modal -->
+      <div
+        class="modal fade"
+        id="blog-snippet-modal"
+        aria-hidden="true"
+        aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1"
+      >
+        <div
+          class="
+            modal-dialog modal-dialog-centered modal-dialog-scrollable modal-lg
+          "
+        >
+          <div class="modal-content">
+            <div class="modal-header">
+              <img
+                src="img/blog-snippet-favicon-32x32.png"
+                alt="nutri-start-icon"
+                style="height: 20px; width: 20px"
+              />
+              <h5 class="modal-title text-center" id="exampleModalToggleLabel">
+                &nbsp; Blog-Snippet full stack blog application
+              </h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">
+              <img
+                src="img/blog-snippet-screenshot.png"
+                class="d-block img-fluid"
+                alt="work"
+                style="max-height: 340px; margin: auto"
+              />
+              <h6 class="text-center py-2">
+                <a
+                  href="https://blogsnippet.herokuapp.com/"
+                  class="text-decoration-none"
+                  >blogsnippet.herokuapp.com</a
+                >
+              </h6>
+              <p>
+                A basic full-stack blog application to learn testing frontend,
+                backend and end-to-end testing with cypress and CI/CD workflow
+                in CircleCi with Heroku.
+              </p>
+              <p class="mb-0">Backend: NodeJs, Express, Postgres.</p>
+              <p class="mb-0">Frontend: React, Redux and Bootstrap.</p>
+              <p>CI/CD: CircleCI with Heroku</p>
+              <p>
+                For more info:
+                <a
+                  href="https://github.com/memoryInject/blog_snippet_unit_ci_test"
+                  class="text-decoration-none"
+                  >github</a
+                >
+              </p>
+              <p class="text-warning">
+                **Note: this demo hosted in heroku free dyno, it may take a few
+                seconds to load it initially.
+              </p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-primary" data-bs-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me -->
+    <div style="padding-top: 20vh"></div>
+    <section class="section-contact" id="contact">
+      <div class="container">
+        <h1 class="text-center fs-2">Contact</h1>
+        <p class="text-center fs-5">
+          I'm always open to discussing server side development, feel free to
+          send me an email:
+          <a href="mailto:msmahesh@live.com" class="text-decoration-none"
+            >msmahesh@live.com</a
+          >
+        </p>
+        <p class="text-center fs-5">
+          I'm currently available for full time web development opportunities.
+        </p>
+        <div class="text-center">
+          <!-- Linkedin -->
+          <a
+            href="https://www.linkedin.com/in/maxcolor/"
+            class="btn btn-primary fw-bold"
+            style="font-size: 18px"
+            >Linked
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              style="fill: white; position: relative; top: -3px"
+            >
+              <path
+                d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+              />
+            </svg>
+          </a>
+
+          <!-- Github -->
+          <a
+            href="https://github.com/memoryInject/"
+            class="btn btn-dark fw-bold"
+            style="font-size: 18px"
+            >Github
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              style="fill: white; position: relative; top: -3px"
+            >
+              <path
+                d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+              />
+            </svg>
+          </a>
+        </div>
+      </div>
+    </section>
+    <div style="padding-top: 27vh"></div>
+
+    <!-- Footer -->
+    <section class="section-footer">
+      <footer class="footer py-3 bg-light">
+        <div class="container">
+          <div class="text-center">
+            <h5 class="fw-bold text-muted">Memory-Inject</h5>
+            <span class="text-muted fs-5"
+              >Learing, practicing and building one day at a time.</span
+            >
+          </div>
+          <div class="text-center py-2">
+            <!-- Linkedin -->
+            <a
+              href="https://www.linkedin.com/in/maxcolor/"
+              class="btn btn-secondary fw-bold"
+              style="height: 34px; width: 34px; border-radius: 17px"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                style="fill: white; position: relative; top: -4px; right: 6px"
+              >
+                <path
+                  d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"
+                />
+              </svg>
+            </a>
+
+            <!-- Github -->
+            <a
+              href="https://github.com/memoryInject/"
+              class="btn btn-secondary fw-bold text-center"
+              style="height: 34px; width: 34px; border-radius: 17px"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                style="fill: white; position: relative; top: -4px; right: 6px"
+              >
+                <path
+                  d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
+                />
+              </svg>
+            </a>
+
+            <!-- Email -->
+            <a
+              href="mailto:msmahesh@live.com"
+              class="btn btn-secondary fw-bold text-center"
+              style="height: 34px; width: 34px; border-radius: 17px"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                style="fill: white; position: relative; top: -4px; right: 6px"
+              >
+                <path
+                  d="M0 3v18h24v-18h-24zm6.623 7.929l-4.623 5.712v-9.458l4.623 3.746zm-4.141-5.929h19.035l-9.517 7.713-9.518-7.713zm5.694 7.188l3.824 3.099 3.83-3.104 5.612 6.817h-18.779l5.513-6.812zm9.208-1.264l4.616-3.741v9.348l-4.616-5.607z"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="text-center">
+            <!-- <span class="text-muted"
+              >This website is made with
+              <a href="https://getbootstrap.com/" class="text-decoration-none"
+                >Bootstrap</a
+              ></span
+            > -->
+            <p class="py-2 text-muted">memoryinject.io &copy; 2021-2022</p>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/cloudinary-core/cloudinary-core-shrinkwrap.js"></script>
+    <script src="https://unpkg.com/cloudinary-video-player/dist/cld-video-player.light.min.js"></script>
+    <script>
+      var cld = cloudinary.Cloudinary.new({ cloud_name: 'memoryinject' });
+      var player = cld.videoPlayer('player', {
+        fluid: true,
+        controls: true,
+        muted: true,
+        autoplay: true,
+        loop: true,
+      });
+      player.source(
+        'https://res.cloudinary.com/memoryinject/video/upload/q_auto/v1640357565/media_review_app/Demo/Comp_1_00000_xpwuzl.mp4',
+        {
+          poster:
+            'https://res.cloudinary.com/memoryinject/video/upload/f_jpg/v1640357565/media_review_app/Demo/Comp_1_00000_xpwuzl.mp4',
+          sourceTypes: ['webm'],
+        }
+      );
+    </script>
+  </body>
+</html>
