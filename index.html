@@ -689,13 +689,7 @@
             </a>
           </div>
           <div class="text-center">
-            <!-- <span class="text-muted"
-              >This website is made with
-              <a href="https://getbootstrap.com/" class="text-decoration-none"
-                >Bootstrap</a
-              ></span
-            > -->
-            <p class="py-2 text-muted">memoryinject.io &copy; 2021-2024</p>
+            <p class="py-2 text-muted" id="copyright"></p>
           </div>
         </div>
       </footer>
@@ -724,6 +718,13 @@
           sourceTypes: ['webm'],
         }
       );
+    </script>
+    <script>
+      const startYear = 2021;
+      const currentYear = new Date().getFullYear();
+      const yearRange = startYear === currentYear ? currentYear : `${startYear}-${currentYear}`;
+      
+      document.getElementById('copyright').innerHTML = `memoryinject.io &copy; ${yearRange}`;
     </script>
   </body>
 </html>
